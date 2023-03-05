@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../nur-website/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+     crossorigin="anonymous">
+     <script src="https://unpkg.com/scrollreveal"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+     <title>Nur Website</title>
+
+</head>
+<body>
+
+    <!--=======navigation section======-->
+    <header>
+        
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="navcon">
+
+        </div>
+        <div class="navcon2">
+
+        </div>
+        <div class="container">
+            <nav>
+                
+                <h1 class="nur">
+                    <a href="index.html"><span>NURHAN</span></a>
+                </h1>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                    </ul>
+                
+            </nav>
+            
+                <div href="#" class="nurpic">
+                    <h1 class="nu">HELLO!</h1>
+                        <img src="../nur-website/assets/images/nur.jpg">
+                    <div class="glow-wrap">
+                        <i class="glow"></i>
+                    </div>
+                </div>
+                
+                <div class="introduction1">
+                    <h1 >
+                        <a class="Iam">I&apos;am</a> 
+                        <a class="nursumusod">Nur Sumusod</a>
+                        <a class="self">A self-taught Web Developer</a>
+                        
+                    </h1>
+               </div>
+               <div class="introcontainer"></div>
+        </div>
+        <div class="icons">
+            <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;
+            <a href="#" class="fa fa-linkedin"></a>&nbsp;&nbsp;&nbsp;
+            <a href="#" class="fa fa-github"></a>&nbsp;&nbsp;&nbsp;
+            <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;&nbsp;
+        </div>
+    </header>
+
+    <!--=======About Section======-->
+
+    <section class="section1">
+        <div class="name">
+            <h1 class="nurname">
+                <a>About<span>Me.</span></a>  
+            </h1>
+            <a class="selftaught">Self-Taught Software Developer</a>
+            <p>I&apos;m a graduate of Bachelor of Science in Computer Engineering at Southern Mindanao Colleges. I spent most of my time
+                learning Web and Software development such as HTML, CSS, JavaScript, MySQL and MS SQL Server.
+                I used to work as a Contact Tracer for COVID-19 at Department of the Interior and Local Government,
+                for which I&apos;am responsible for conducting Interviews, Information Gathering and Documentation.
+                it enhance my Communication Skills when dealing with people and it also taught me how to remain calm in a 
+                stressful situation. 
+            </p>
+            <p>
+                I love learning new things, playing sports, traveling and reading books. nowadays, I spent my time to my family
+                while also learning sofware development. currently, I am looking for a job to enhance more my skills at the same time 
+                adding value to the company. 
+            </p>
+        </div>
+
+        <div>
+            <h1 class="aboutnur">
+                <img src="../nur-website/assets/images/Nurpic.png"/>
+            </h1>
+            
+        </div>
+
+    </section>
+
+    <!--=======SKILL SECTION======-->
+    <section class="section2">
+        <div class="sect2">
+            <h1 class="Exp">
+            <a>
+                EXPERIENCE
+            </a>
+
+            </h1>
+            
+        </div>
+        <div class="sect2container">
+            <div class="slide_wrapper">
+                <div class="slider">
+                    <h1  id="acc1">
+                        <a>
+                            Accenture Inc.
+                        </a>
+                        <a1>Associate Software Engineer - Application Developer
+                        </a1>
+                        <p>
+                            Part of the 24x7 support rotation of teams, ie Night Shift, Weekend Rotationm Weekend on call, receiving 
+                            and resolving incidents with direct coordination with the dealers/clients undergo necessary cross training
+                            on applications supported by the project, perform development work, provide product maintenance/fixes support for bugs
+                            as per project.
+                        </p>
+                        <p1>
+                            defined service level agreements, participate in team meetings like estimations, RCA/Post-Mortem and provide necessaryinformation/details about issues
+                            discussed. able to provide process improvements that will improve efficiency in day to day tasks, Create/Edit documentation user guide,
+                            user references, etc. 
+                        
+                        </p1>
+                    </h1>  
+                    <h1 id="acc2">
+                        <a>
+                            Department of the Interior and Local Government
+                        </a>
+                        <a1>
+                            Contact Tracer
+                        </a1>
+                        <p>
+
+                        </p>
+                    </h1>
+                    <h1 id="acc3">
+                        <a>
+                            Accenture I
+                        </a>
+                        
+                    </h1>  
+                </div>
+                
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        
+    </section>
+    <!--=======SCRIPTS======-->
+
+    <script src='../nur-website/scripts/navbar.js'></script>
+    
+    <script>
+    ScrollReveal({ 
+        reset: true,
+        distance: '60px',
+        delay: 400
+    });
+
+    ScrollReveal().reveal('.Iam', { delay: 500, origin: 'right'});
+    ScrollReveal().reveal('.nursumusod', { delay: 700, origin: 'right'});
+    ScrollReveal().reveal('.self', { delay: 900, origin: 'right'});
+    ScrollReveal().reveal('.nurpic', { delay: 300, origin: 'left'});
+    ScrollReveal().reveal('.icons a', { delay: 1000, origin: 'left', interval: '400'});
+    ScrollReveal().reveal('.name a', { delay: 300, origin: 'right', interval: '400'});
+    ScrollReveal().reveal('.name p', { delay: 800, origin: 'left', interval: '400'});
+    ScrollReveal().reveal('.sect2', { delay: 300, origin: 'left', interval: '400'});
+    ScrollReveal().reveal('.sect2container', { delay: 500, origin: 'left', interval: '400'});
+    </script>
+    
+</body>
+</html>
